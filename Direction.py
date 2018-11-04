@@ -7,7 +7,7 @@ class Turn(Enum):
     MID_LEFT = -1
     CENTER = 0
     MID_RIGHT = 1
-    ABSOLUTE_RIGHT = 2
+    ABS_RIGHT = 2
 
     def __str__(self):
         return self.name
