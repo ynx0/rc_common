@@ -1,5 +1,6 @@
 from enum import Enum, unique
 
+
 @unique
 class Turn(Enum):
     ABS_LEFT = -2
